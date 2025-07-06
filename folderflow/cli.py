@@ -3,6 +3,9 @@ import os
 import shutil
 import argparse
 from datetime import datetime
+from colorama import init
+from folderflow.banner import BANNER
+
 
 extensions = {
     ".jpg": "Images",
@@ -52,7 +55,12 @@ def organize_files(directory, enable_log=False):
                 print(error_msg)
                 log_action(error_msg, enable_log)
 
+
+# Main CLI entry point
 def main():
+    # Show the banner
+    print(BANNAR)
+    
     parser = argparse.ArgumentParser(description="📂 FolderFlow - Auto File Organizer")
 
     parser.add_argument(
