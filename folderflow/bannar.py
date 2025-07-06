@@ -13,5 +13,5 @@ BANNER = f"""
 
 {Style.RESET_ALL}
 📁 FolderFlow v{__version__}
-By github.com/YourUsername
+By github.com/Humayra-Adiba
 """

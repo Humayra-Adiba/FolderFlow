@@ -80,7 +80,7 @@ E:/Downloads/
 ├── Code/
 │   └── script.py
 ```
-
+---
 ### Example with Custom Folder Names:
 Command:
 ```bash
@@ -100,9 +100,4 @@ E:/Downloads/
 ├── Code/
 │   └── script.py
 ```
-
-## 🤝 Contributing
-
-Pull requests are welcome! If you have cool ideas (like a GUI, dry-run, undo, recursive mode), feel free to fork and submit a PR.
-
 ---
